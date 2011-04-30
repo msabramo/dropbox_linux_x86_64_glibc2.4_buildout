@@ -3,7 +3,7 @@ A zc.buildout that installs the Dropbox daemon and glibc-2.4 on a Linux x86_64 s
 
 By Marc Abramowitz [http://marc-abramowitz.com](http://marc-abramowitz.com)
 
-This is an attempt to make repeatable the process that I followed to install Dropbox on my DreamHost VPS (see http://marc-abramowitz.com/archives/2011/04/19/running-dropbox-on-dreamhost/). This was tricky because the Dropbox software is closed-source and it contains binaries compiled against glibc 2.4, whereas my VPS server is using glibc 2.3. This buildout downloads and compiles glibc 2.4 and installs it in a sandbox with the Dropbox software. It also sets up Supervisor and uses it to manage the Dropbox daemon.
+This is an attempt to make repeatable [the process that I followed to install Dropbox on my DreamHost VPS](http://marc-abramowitz.com/archives/2011/04/19/running-dropbox-on-dreamhost/). This was tricky because the Dropbox software is closed-source and it contains binaries compiled against glibc 2.4, whereas my VPS server is using glibc 2.3. This buildout downloads and compiles glibc 2.4 and installs it in a sandbox with the Dropbox software. It also sets up Supervisor and uses it to manage the Dropbox daemon.
 
 ## Installation
 
