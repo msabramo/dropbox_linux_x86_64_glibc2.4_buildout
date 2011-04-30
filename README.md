@@ -8,6 +8,5 @@ This is an attempt to make repeatable [the process that I followed to install Dr
 ## Installation
 
 <pre>
-$ python bootstrap.py
-$ bin/buildout
+$ export TMPDIR=$(pwd)/tmp; mkdir ${TMPDIR}; python bootstrap.py && bin/buildout
 </pre>
